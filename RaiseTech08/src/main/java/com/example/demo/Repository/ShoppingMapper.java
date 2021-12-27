@@ -4,11 +4,11 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.example.demo.Form.BoughtListForm;
+import com.example.demo.entity.ShoppingList;
 
 @Mapper
-public interface BoughtMapper {
+public interface ShoppingMapper {
 	
-	List<BoughtListForm> selectAll();
+	List<ShoppingList> selectAll();
 
 }

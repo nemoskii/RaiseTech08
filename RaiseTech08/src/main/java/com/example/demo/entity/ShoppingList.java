@@ -1,8 +1,8 @@
-package com.example.demo.Form;
+package com.example.demo.entity;
 import lombok.Data;
 
 @Data
-public class BoughtListForm {
+public class ShoppingList {
 	private int id;
 	private String ItemName;
 	private Integer ItemCount;
